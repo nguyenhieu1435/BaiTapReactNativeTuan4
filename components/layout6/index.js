@@ -23,7 +23,7 @@ export default function Layout6() {
         </View>
         <View style={{width: "100%", position: "relative", marginBottom: "18px"}}>
             <TextInput placeholder='Password' style={{fontSize: "18px", paddingHorizontal: "15px"
-            , paddingVertical: "12px", outline: "none", backgroundColor: "rgba(0,0,0,0.1)"}}/>
+            , paddingVertical: "12px", outline: "none", backgroundColor: "rgba(0,0,0,0.1)"}} secureTextEntry={true}/>
             <Image source={require("../../assets/Eye.png")} 
                 style={{width: "36px", height: "100%", position: "absolute", justifyContent: "center", right: "15px"}}
                 resizeMode='contain'
